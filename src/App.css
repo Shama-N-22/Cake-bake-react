@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ccc;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.hero-banner {
+  width: 99vw;
+  height: 99vh;
+  position: absolute;
+  z-index: -50;
+  opacity: 0.5;
+  object-fit: cover;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: #ccc;
+  backdrop-filter: blur(200px);
+  -webkit-backdrop-filter: blur(80px);
+  border-radius: 1rem;
+  color: #100f13;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+.icon {
+  width: 100px;
+  aspect-ratio: 1/1;
+}
+.hero {
+  display: flex;
+  width: 99vw;
+  height: 99vh;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: auto;
+}
+.hero h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+.about {
+  width: 99vw;
+  padding: 10px 0px;
+}
+.about h2 {
+  color: white;
+  padding: 0 20px;
+}
+.about p {
+  font-size: larger;
+  line-height: 25px;
+  padding: 0px 20px;
+}
+
+.cake-category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cake-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cake-card img {
+  width: 30vw;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0px auto;
+}
+
+.gallery-grid img {
+  width: 32vw;
+  height: auto;
+  aspect-ratio: 16/11;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#testimonialForm {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
